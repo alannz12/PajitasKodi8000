@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7ADB1BF1DD948BF00A5F21C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB1BE1DD948BF00A5F21C /* main.m */; };
+		E7ADB1C21DD948BF00A5F21C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB1C11DD948BF00A5F21C /* AppDelegate.m */; };
+		E7ADB1C51DD948BF00A5F21C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB1C41DD948BF00A5F21C /* ViewController.m */; };
+		E7ADB1C81DD948BF00A5F21C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7ADB1C61DD948BF00A5F21C /* Main.storyboard */; };
+		E7ADB1CA1DD948BF00A5F21C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7ADB1C91DD948BF00A5F21C /* Assets.xcassets */; };
+		E7ADB1D51DD948BF00A5F21C /* PajitasKodi8000Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB1D41DD948BF00A5F21C /* PajitasKodi8000Tests.m */; };
+		E7ADB1E01DD948BF00A5F21C /* PajitasKodi8000UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ADB1DF1DD948BF00A5F21C /* PajitasKodi8000UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7ADB1D11DD948BF00A5F21C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7ADB1B21DD948BE00A5F21C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7ADB1B91DD948BE00A5F21C;
+			remoteInfo = PajitasKodi8000;
+		};
+		E7ADB1DC1DD948BF00A5F21C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7ADB1B21DD948BE00A5F21C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7ADB1B91DD948BE00A5F21C;
+			remoteInfo = PajitasKodi8000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E7ADB1BA1DD948BF00A5F21C /* PajitasKodi8000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PajitasKodi8000.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7ADB1BE1DD948BF00A5F21C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E7ADB1C01DD948BF00A5F21C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E7ADB1C11DD948BF00A5F21C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E7ADB1C31DD948BF00A5F21C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E7ADB1C41DD948BF00A5F21C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E7ADB1C71DD948BF00A5F21C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7ADB1C91DD948BF00A5F21C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7ADB1CB1DD948BF00A5F21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7ADB1D01DD948BF00A5F21C /* PajitasKodi8000Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PajitasKodi8000Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7ADB1D41DD948BF00A5F21C /* PajitasKodi8000Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PajitasKodi8000Tests.m; sourceTree = "<group>"; };
+		E7ADB1D61DD948BF00A5F21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7ADB1DB1DD948BF00A5F21C /* PajitasKodi8000UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PajitasKodi8000UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7ADB1DF1DD948BF00A5F21C /* PajitasKodi8000UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PajitasKodi8000UITests.m; sourceTree = "<group>"; };
+		E7ADB1E11DD948BF00A5F21C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7ADB1B71DD948BE00A5F21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ADB1CD1DD948BF00A5F21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ADB1D81DD948BF00A5F21C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7ADB1B11DD948BE00A5F21C = {
+			isa = PBXGroup;
+			children = (
+				E7ADB1BC1DD948BF00A5F21C /* PajitasKodi8000 */,
+				E7ADB1D31DD948BF00A5F21C /* PajitasKodi8000Tests */,
+				E7ADB1DE1DD948BF00A5F21C /* PajitasKodi8000UITests */,
+				E7ADB1BB1DD948BF00A5F21C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7ADB1BB1DD948BF00A5F21C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7ADB1BA1DD948BF00A5F21C /* PajitasKodi8000.app */,
+				E7ADB1D01DD948BF00A5F21C /* PajitasKodi8000Tests.xctest */,
+				E7ADB1DB1DD948BF00A5F21C /* PajitasKodi8000UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7ADB1BC1DD948BF00A5F21C /* PajitasKodi8000 */ = {
+			isa = PBXGroup;
+			children = (
+				E7ADB1C01DD948BF00A5F21C /* AppDelegate.h */,
+				E7ADB1C11DD948BF00A5F21C /* AppDelegate.m */,
+				E7ADB1C31DD948BF00A5F21C /* ViewController.h */,
+				E7ADB1C41DD948BF00A5F21C /* ViewController.m */,
+				E7ADB1C61DD948BF00A5F21C /* Main.storyboard */,
+				E7ADB1C91DD948BF00A5F21C /* Assets.xcassets */,
+				E7ADB1CB1DD948BF00A5F21C /* Info.plist */,
+				E7ADB1BD1DD948BF00A5F21C /* Supporting Files */,
+			);
+			path = PajitasKodi8000;
+			sourceTree = "<group>";
+		};
+		E7ADB1BD1DD948BF00A5F21C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7ADB1BE1DD948BF00A5F21C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E7ADB1D31DD948BF00A5F21C /* PajitasKodi8000Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E7ADB1D41DD948BF00A5F21C /* PajitasKodi8000Tests.m */,
+				E7ADB1D61DD948BF00A5F21C /* Info.plist */,
+			);
+			path = PajitasKodi8000Tests;
+			sourceTree = "<group>";
+		};
+		E7ADB1DE1DD948BF00A5F21C /* PajitasKodi8000UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7ADB1DF1DD948BF00A5F21C /* PajitasKodi8000UITests.m */,
+				E7ADB1E11DD948BF00A5F21C /* Info.plist */,
+			);
+			path = PajitasKodi8000UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7ADB1B91DD948BE00A5F21C /* PajitasKodi8000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7ADB1E41DD948BF00A5F21C /* Build configuration list for PBXNativeTarget "PajitasKodi8000" */;
+			buildPhases = (
+				E7ADB1B61DD948BE00A5F21C /* Sources */,
+				E7ADB1B71DD948BE00A5F21C /* Frameworks */,
+				E7ADB1B81DD948BE00A5F21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PajitasKodi8000;
+			productName = PajitasKodi8000;
+			productReference = E7ADB1BA1DD948BF00A5F21C /* PajitasKodi8000.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7ADB1CF1DD948BF00A5F21C /* PajitasKodi8000Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7ADB1E71DD948BF00A5F21C /* Build configuration list for PBXNativeTarget "PajitasKodi8000Tests" */;
+			buildPhases = (
+				E7ADB1CC1DD948BF00A5F21C /* Sources */,
+				E7ADB1CD1DD948BF00A5F21C /* Frameworks */,
+				E7ADB1CE1DD948BF00A5F21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7ADB1D21DD948BF00A5F21C /* PBXTargetDependency */,
+			);
+			name = PajitasKodi8000Tests;
+			productName = PajitasKodi8000Tests;
+			productReference = E7ADB1D01DD948BF00A5F21C /* PajitasKodi8000Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E7ADB1DA1DD948BF00A5F21C /* PajitasKodi8000UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7ADB1EA1DD948BF00A5F21C /* Build configuration list for PBXNativeTarget "PajitasKodi8000UITests" */;
+			buildPhases = (
+				E7ADB1D71DD948BF00A5F21C /* Sources */,
+				E7ADB1D81DD948BF00A5F21C /* Frameworks */,
+				E7ADB1D91DD948BF00A5F21C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7ADB1DD1DD948BF00A5F21C /* PBXTargetDependency */,
+			);
+			name = PajitasKodi8000UITests;
+			productName = PajitasKodi8000UITests;
+			productReference = E7ADB1DB1DD948BF00A5F21C /* PajitasKodi8000UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7ADB1B21DD948BE00A5F21C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Alan E Garcia";
+				TargetAttributes = {
+					E7ADB1B91DD948BE00A5F21C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VC3ZUS33GP;
+						ProvisioningStyle = Automatic;
+					};
+					E7ADB1CF1DD948BF00A5F21C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7ADB1B91DD948BE00A5F21C;
+					};
+					E7ADB1DA1DD948BF00A5F21C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E7ADB1B91DD948BE00A5F21C;
+					};
+				};
+			};
+			buildConfigurationList = E7ADB1B51DD948BE00A5F21C /* Build configuration list for PBXProject "PajitasKodi8000" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7ADB1B11DD948BE00A5F21C;
+			productRefGroup = E7ADB1BB1DD948BF00A5F21C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7ADB1B91DD948BE00A5F21C /* PajitasKodi8000 */,
+				E7ADB1CF1DD948BF00A5F21C /* PajitasKodi8000Tests */,
+				E7ADB1DA1DD948BF00A5F21C /* PajitasKodi8000UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7ADB1B81DD948BE00A5F21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7ADB1CA1DD948BF00A5F21C /* Assets.xcassets in Resources */,
+				E7ADB1C81DD948BF00A5F21C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ADB1CE1DD948BF00A5F21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ADB1D91DD948BF00A5F21C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7ADB1B61DD948BE00A5F21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7ADB1C51DD948BF00A5F21C /* ViewController.m in Sources */,
+				E7ADB1C21DD948BF00A5F21C /* AppDelegate.m in Sources */,
+				E7ADB1BF1DD948BF00A5F21C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ADB1CC1DD948BF00A5F21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7ADB1D51DD948BF00A5F21C /* PajitasKodi8000Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ADB1D71DD948BF00A5F21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7ADB1E01DD948BF00A5F21C /* PajitasKodi8000UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7ADB1D21DD948BF00A5F21C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7ADB1B91DD948BE00A5F21C /* PajitasKodi8000 */;
+			targetProxy = E7ADB1D11DD948BF00A5F21C /* PBXContainerItemProxy */;
+		};
+		E7ADB1DD1DD948BF00A5F21C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7ADB1B91DD948BE00A5F21C /* PajitasKodi8000 */;
+			targetProxy = E7ADB1DC1DD948BF00A5F21C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7ADB1C61DD948BF00A5F21C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7ADB1C71DD948BF00A5F21C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7ADB1E21DD948BF00A5F21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E7ADB1E31DD948BF00A5F21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7ADB1E51DD948BF00A5F21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = VC3ZUS33GP;
+				INFOPLIST_FILE = PajitasKodi8000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pajasinc.PajitasKodi8000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E7ADB1E61DD948BF00A5F21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = VC3ZUS33GP;
+				INFOPLIST_FILE = PajitasKodi8000/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pajasinc.PajitasKodi8000;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E7ADB1E81DD948BF00A5F21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PajitasKodi8000Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pajasinc.PajitasKodi8000Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PajitasKodi8000.app/PajitasKodi8000";
+			};
+			name = Debug;
+		};
+		E7ADB1E91DD948BF00A5F21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PajitasKodi8000Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pajasinc.PajitasKodi8000Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PajitasKodi8000.app/PajitasKodi8000";
+			};
+			name = Release;
+		};
+		E7ADB1EB1DD948BF00A5F21C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PajitasKodi8000UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pajasinc.PajitasKodi8000UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PajitasKodi8000;
+			};
+			name = Debug;
+		};
+		E7ADB1EC1DD948BF00A5F21C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PajitasKodi8000UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pajasinc.PajitasKodi8000UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PajitasKodi8000;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7ADB1B51DD948BE00A5F21C /* Build configuration list for PBXProject "PajitasKodi8000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7ADB1E21DD948BF00A5F21C /* Debug */,
+				E7ADB1E31DD948BF00A5F21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7ADB1E41DD948BF00A5F21C /* Build configuration list for PBXNativeTarget "PajitasKodi8000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7ADB1E51DD948BF00A5F21C /* Debug */,
+				E7ADB1E61DD948BF00A5F21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7ADB1E71DD948BF00A5F21C /* Build configuration list for PBXNativeTarget "PajitasKodi8000Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7ADB1E81DD948BF00A5F21C /* Debug */,
+				E7ADB1E91DD948BF00A5F21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7ADB1EA1DD948BF00A5F21C /* Build configuration list for PBXNativeTarget "PajitasKodi8000UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7ADB1EB1DD948BF00A5F21C /* Debug */,
+				E7ADB1EC1DD948BF00A5F21C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7ADB1B21DD948BE00A5F21C /* Project object */;
+}

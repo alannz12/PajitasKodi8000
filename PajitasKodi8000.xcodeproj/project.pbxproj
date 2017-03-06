@@ -498,6 +498,7 @@
 				E7ADB1E61DD948BF00A5F21C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7ADB1E71DD948BF00A5F21C /* Build configuration list for PBXNativeTarget "PajitasKodi8000Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				E7ADB1E91DD948BF00A5F21C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7ADB1EA1DD948BF00A5F21C /* Build configuration list for PBXNativeTarget "PajitasKodi8000UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				E7ADB1EC1DD948BF00A5F21C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
